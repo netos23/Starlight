@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 # Starlight
-![Logo image](docs/images/Starligth_logo.png)
+<img alt="Logo image" height="300" src="docs/images/Starligth_logo.png" width="300"/>
 Minimalistic arch and state management with codegen, DI, router
 
 ## Features
