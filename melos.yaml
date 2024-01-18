@@ -1,7 +1,7 @@
 name: starlight
 
 packages:
-  - "packages/"
+  - "packages/**"
 
 command:
   bootstrap:
