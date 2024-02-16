@@ -1,0 +1,18 @@
+name: example
+description: Fabricator - compile time DI example
+version: 1.0.0
+
+environment:
+  sdk: ^3.2.5
+
+
+dependencies:
+  fabricator:
+    path: ..
+
+dev_dependencies:
+  lints: ^2.1.0
+  test: ^1.24.0
+  build_runner: 2.4.2
+  fabricator_gen:
+    path: ../../fabricator_gen

@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: fabricator,fabricator_gen
+dependency_overrides:
+  fabricator:
+    path: ..
+  fabricator_gen:
+    path: ../../fabricator_gen

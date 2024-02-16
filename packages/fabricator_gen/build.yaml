@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      fabricator_gen|fabricator:
+        enabled: true
+
+builders:
+  fabricator_gen:
+    target: ":fabricator_gen"
+    import: "package:fabricator_gen/fabricator_builder.dart"
+    builder_factories: ["fabricatorBuilder"]
+    build_extensions: {".dart": [".fabricator.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
